@@ -15,6 +15,6 @@ for x,y,w,h in faces:
     img = cv2.rectangle(img, (x,y), (x+w,y+h),(0,255,0),3)
  
 resized = cv2.resize(img, (int(img.shape[1]),int(img.shape[0])))
-cv2.imshow("Gray", resized)
+cv2.imshow("SAKSHI PANDITA", resized)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
