@@ -1,10 +1,10 @@
 import cv2
 
 # Create a CascadeClassifier Object
-face_cascade = cv2.CascadeClassifier("C:\\Users\\Sakshi\\Anaconda3\\Lib\\site-packages\\cv2\\data\\haarcascade_frontalface_default.xml")
+face_cascade = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
 
 # Read img
-img = cv2.imread("C:\\Users\\Sakshi\\Desktop\\bcd_friends_web_900x506.jpg")
+img = cv2.imread("photo.jpg")
 
 # Read img as gray scale img
 gray_img = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
